@@ -6,12 +6,14 @@
 @font-face {
     font-family: 'Font2';
     src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
-  }
-
-*{
-    background-color: #FCFCFC;
 }
-p.top{
+
+* {
+    background-color: #FCFCFC;
+    font-family: 'Font2';
+}
+
+p.top {
     font-family: bold;
     font-size: 32px;
     background-color: #00171c;
@@ -22,7 +24,8 @@ p.top{
     padding-top: 10px;
     border-radius: 15px;
 }
-span{
+
+span {
     font-family: Font2;
     background-color: #00171c;
     font-size: 18px;
@@ -33,7 +36,8 @@ span{
     padding-top: 10px;
     border-radius: 15px;
 }
-a:link{
+
+/* a:link{
     color: #00171c;
 }
 a:visited{
@@ -52,4 +56,27 @@ div.nav{
     flex-direction: row;
     gap: 25px;
     padding-left: 900px;
+} */
+
+h1 {
+    background-color: #ffffff;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    color: #64645A;
+    padding-left: 30px;
+}
+
+.tag>a {
+    display: flex;
+    width: 280px;
+    height: 10px;
+    text-decoration: none;
+    padding-left: 30px;
+    margin: 1% auto;
+    font-size: 18px;
+    background-color: #00171c;
+    color: #00c3f7;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
 }
